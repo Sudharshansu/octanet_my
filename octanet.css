@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+     
+}
+
+header {
+    background-image: url(https://img.freepik.com/free-photo/buddha-statue-nature_23-2151033712.jpg?t=st=1715672701~exp=1715676301~hmac=ca3cba1a70af8b3259b811d8cbe2fd134bad39d6be74ee0af419059fe4160875&w=900);
+    overflow:hidden;
+    background-size: cover;
+    text-align:center;
+    text-decoration:black;
+    padding:30px;
+    max-width:100%; 
+    margin:40px;
+}
+header img{
+    max-width: fit-content;
+}
+
+
+.navbar {
+      background-color: #333;
+      padding:5px;
+      position:fixed;
+      width:100%;
+      display:flex;
+      justify-content:space-evenly;
+      
+    
+    }
+    .navbar ul {
+      list-style-type: none;;
+      padding: 20px;
+      display:inline;
+
+    }
+    .navbar li {
+      display:inline-block;
+      padding-right:5px;
+     
+    }
+    .navbar li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 7px 20px;
+      display: block;
+      font-size: larger;
+      font-family: Geneva;
+     
+      
+    }
+a:hover{
+        background-color:gray;
+    }
+header h1 {
+    color: white;
+    font-size: 46px;
+}
+
+
+
+header p {
+    color: white;
+    font-size: 56px;
+    font-style:bold;
+    text-align:left;
+}
+.intro{
+    color:#fff;
+    text-align:center;
+    text-decoration: solid;
+    font-family: 'Lucida Sans';
+    font-size:350%;
+    
+}
+.quote{
+    background-image:url(https://img.freepik.com/free-photo/bukhansan-mountains-is-covered-by-morning-fog-sunrise-bukhansan-national-park-seoul-south-korea_335224-305.jpg?t=st=1715770862~exp=1715774462~hmac=6a5af60258306cf2aa9c9f1c697efd8267c4b6cc84d21cc94d49f0c47b7be3f4&w=900);
+    color:#fff;
+    text-align:center;
+    text-decoration: solid;
+    font-family: 'Lucida Sans';
+    font-size:350%;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 100px;
+}
+.intro2{
+    margin:40px;
+    margin-top:10%;
+    padding-top:70px;
+}
+.intro2 p{
+    color:#fff;
+    font-size:50px;
+    font-family:fantasy;
+    text-align: center;
+    padding:5px;
+    margin-bottom:0px;
+
+}
+.flow {
+    display:flex;
+    padding: 5px;
+    margin-top :0px;
+}
+.card {
+    border:1px solid black;
+    border-radius:15px;
+    padding: 50px;
+    margin:20px;
+    width:300px;
+    height:300px;
+    display:inline;
+    background-color: #fff;
+    transition:transform 0.3s;
+}
+.card:hover{
+    transform:translateY(-5px);
+}
+.card img{
+    max-width:100%;;
+    max-height:auto;
+    border-radius:15px;
+}
+.card h2{
+    font-size: 24px;
+    color:black;
+    font-family:cochin;
+    padding:7px;
+}
+
+.card p {
+    font-size: 19px;
+    font-family:geneva;
+    color:black;
+}
+
+  
+  .feedback {
+    max-width:1500px;
+    padding:110px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:30px;
+  }
+  h2 {
+    text-align: center;
+    color:#333;
+  }
+  
+  label {
+    display:block;
+    margin-bottom: 1px;
+    max-width:100%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding:5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:90%;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family:  Geneva;
+    font-size: large;
+}
